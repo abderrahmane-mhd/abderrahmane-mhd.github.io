@@ -2545,7 +2545,9 @@ h3 {
 .bradcam_bg_coding {
   background-image: url(../img/banner/coding.png);
 }
-
+.bradcam_bg_design{
+  background-image: url(../img/banner/design.png);
+}
 
 /* line 4, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
