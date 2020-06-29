@@ -28,6 +28,7 @@
 </head>
 
 <body>
+ 
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -65,7 +66,7 @@
                           <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                               <div class="Appointment">
                                   <div class="book_btn d-none d-lg-block">
-                                      <a  href="mailto:abderrahmane.mohammedii@gmail.com">Contact Me</a>
+                                      <a  href="contact.html">Contact Me</a>
                                   </div>
                               </div>
                           </div>
@@ -93,6 +94,7 @@
     </div>
     <!-- /bradcam_area  -->
 
+ 
   <!-- ================ contact section start ================= -->
   <section class="contact-section section_padding">
     <div class="container">
@@ -101,9 +103,16 @@
       <div class="row">
         <div class="col-12">
           <h2 class="contact-title">Get in Touch</h2>
+          <div class="alert alert-success" id="success" role="alert" style="display: none;">
+            I have received your message and would like to thank you for writing to me. I will reply by email as soon as possible.
+          </div>
+          <div class="alert alert-danger" id="error" role="alert" style="display: none;">
+            Oups, an error has occured please try again. If the error persists please use my email :
+                <b >Abderrahmane.mohammedii@gmail.com</b>
+          </div>
         </div>
         <div class="col-lg-8">
-          <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+          <form class="form-contact contact_form"  id="contactForm" novalidate="novalidate">
             <div class="row">
               <div class="col-12">
                 <div class="form-group">
@@ -198,6 +207,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div>
     </div>
 </footer>
+
+
 <!--/ footer end  -->
 
   <!-- JS here -->
